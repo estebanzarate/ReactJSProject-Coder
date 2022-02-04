@@ -1,0 +1,27 @@
+.card {
+    background: var(--mainOrange);
+    display: flex;
+    flex-direction: column;
+    transition: all .3s;
+    &:hover {
+        box-shadow: 0 2px 5px black;
+    }
+    .card-img {
+        width: 100%;
+    }
+    .card-body {
+        margin-top: .8rem;
+        padding: 0 .8rem;
+        display: flex;
+        justify-content: space-between;
+    }
+    .btn-container {
+        display: flex;
+        justify-content: flex-end;
+        padding: .8rem;
+        .card-btn {
+            width: fit-content;
+            padding: .3rem;
+        }
+    }
+}

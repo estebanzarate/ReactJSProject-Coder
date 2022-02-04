@@ -1,0 +1,12 @@
+main {
+    h1 {
+        text-align: center;
+        padding: 2rem;
+    }
+    .card-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 15rem);
+        justify-content: center;
+        gap: 1rem;
+    }
+}
