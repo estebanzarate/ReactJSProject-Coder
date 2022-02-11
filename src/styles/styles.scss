@@ -1,25 +1,16 @@
 @import url('globals.scss');
-@import url('../components/NavBar/NavBar.scss');
-@import url('../components/CartWidget/CartWidget.scss');
-@import url('../Container/ItemListContainer/ItemListContainer.scss');
-@import url('../components/ItemList/ItemList.scss');
-@import url('../components/Item/Item.scss');
+@import url('../Components/NavBar/NavBar.scss');
+@import url('../Components/CartWidget/CartWidget.scss');
+@import url('../Components/ItemListContainer/ItemListContainer.scss');
+@import url('../Components/ItemList/ItemList.scss');
+@import url('../Components/Item/Item.scss');
+@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed&display=swap');
 
 #root {
     margin: 1rem;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-}
-
-header {
-    background: var(--mainGreen);
-    padding: 1rem;
-    border-radius: 10px;
-    box-shadow: 1px 0 1rem #010;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 main {

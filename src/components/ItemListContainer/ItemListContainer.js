@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 import { useParams } from "react-router-dom"
-import { ItemList } from "../../components/ItemList/ItemList"
-import { pedirDatos } from "../../components/PedirDatos/PedirDatos"
+import { ItemList } from "../../Components/ItemList/ItemList"
+import { pedirDatos } from "../../Components/PedirDatos/PedirDatos"
 
 export const ItemListContainer = () => {
 

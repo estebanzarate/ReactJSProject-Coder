@@ -1,11 +1,12 @@
 import { CarTWidget } from "../CartWidget/CartWidget"
 import { Link } from "react-router-dom";
+import logoLuvi from "../../images/logo.png"
 
 export const NavBar = () => {
     return (
         <header>
             <Link to="/" className="logo">
-                <h1>LUVIKUP</h1>
+                <img src={logoLuvi} alt="logo" />
             </Link>
 
             <nav>

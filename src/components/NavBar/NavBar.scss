@@ -1,9 +1,17 @@
 header {
+    background: var(--secondColor);
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 1px 0 1rem #010;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 1rem;
     .logo {
-        text-decoration: none;
-        h1 {
+        img {
             text-transform: uppercase;
-            margin-left: 2rem;
+            width: 8rem;
         }
     }
     nav {
@@ -13,8 +21,13 @@ header {
         width: 25rem;
         .header-link {
             cursor: pointer;
-            font-size: 1.2rem;
+            font-size: 1.5rem;
             text-decoration: none;
+            transition: all .3s;
+            color: var(--mainColor);
+        }
+        .header-link:hover {
+            color: rgba(191, 105, 231, 0.705);
         }
     }
 }

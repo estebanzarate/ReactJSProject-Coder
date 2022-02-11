@@ -1,10 +1,10 @@
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-import { NavBar } from "./components/NavBar/NavBar";
-import { ItemListContainer } from "./Container/ItemListContainer/ItemListContainer";
+import { NavBar } from "./Components/NavBar/NavBar";
+import { ItemListContainer } from "./Components/ItemListContainer/ItemListContainer";
 import './styles/styles.scss';
-import { Nosotros } from "./components/Nosotros/Nosotros"
-import { Contacto } from "./components/Contacto/Contacto"
-import { ItemDetailContainer } from "./Container/ItemDetailContainer/ItemDetailContainer";
+import { Nosotros } from "./Components/Nosotros/Nosotros"
+import { Contacto } from "./Components/Contacto/Contacto"
+import { ItemDetailContainer } from "./Components/ItemDetailContainer/ItemDetailContainer";
 
 function App() {
 	return (

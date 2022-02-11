@@ -1,10 +1,10 @@
-import logo from '../../images/shopping-cart.png'
+import cartIco from '../../images/shopping-cart.png'
 
 export const CarTWidget = () => {
 
     return (
         <>
-            <img src={logo} alt="logo" />
+            <img src={cartIco} alt="logo" />
         </>
     )
 }
