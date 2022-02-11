@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/ReactJSProject-Coder/static/css/main.a3840244.css",
+    "main.js": "/ReactJSProject-Coder/static/js/main.43c1e83c.js",
+    "static/js/787.5b0c3de5.chunk.js": "/ReactJSProject-Coder/static/js/787.5b0c3de5.chunk.js",
+    "static/media/amigu2.jpg": "/ReactJSProject-Coder/static/media/amigu2.fe24b6c8c38e0a15e247.jpg",
+    "static/media/amigu3.jpg": "/ReactJSProject-Coder/static/media/amigu3.8df5ebb3bb7c8579b4d1.jpg",
+    "static/media/amigu7.jpg": "/ReactJSProject-Coder/static/media/amigu7.c56534fec3bbca39eeeb.jpg",
+    "static/media/amigu4.jpg": "/ReactJSProject-Coder/static/media/amigu4.6f3484911fba86c6d90b.jpg",
+    "static/media/amigu5.jpg": "/ReactJSProject-Coder/static/media/amigu5.50b8288c32cfdd48141e.jpg",
+    "static/media/amigu6.jpg": "/ReactJSProject-Coder/static/media/amigu6.2664e4977fe91a78b7d2.jpg",
+    "static/media/amigu9.jpg": "/ReactJSProject-Coder/static/media/amigu9.024f97f3fb95c8bbe20c.jpg",
+    "static/media/amigu1.jpg": "/ReactJSProject-Coder/static/media/amigu1.03d8e26e4435db2e9b70.jpg",
+    "static/media/amigu10.jpg": "/ReactJSProject-Coder/static/media/amigu10.23615e564d1aa669cd00.jpg",
+    "static/media/amigu8.jpg": "/ReactJSProject-Coder/static/media/amigu8.9b48de90a6e4f0ee0daa.jpg",
+    "static/media/shopping-cart.png": "/ReactJSProject-Coder/static/media/shopping-cart.6e627af0accac1d92b52.png",
+    "index.html": "/ReactJSProject-Coder/index.html",
+    "main.a3840244.css.map": "/ReactJSProject-Coder/static/css/main.a3840244.css.map",
+    "main.43c1e83c.js.map": "/ReactJSProject-Coder/static/js/main.43c1e83c.js.map",
+    "787.5b0c3de5.chunk.js.map": "/ReactJSProject-Coder/static/js/787.5b0c3de5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a3840244.css",
+    "static/js/main.43c1e83c.js"
+  ]
+}
