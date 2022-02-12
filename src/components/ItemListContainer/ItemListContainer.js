@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom"
 import { ItemList } from "../../Components/ItemList/ItemList"
 import { pedirDatos } from "../../Components/PedirDatos/PedirDatos"
 import { Loading } from "../Loading/Loading"
+import { Filters } from "../Filters/Filters"
 
 export const ItemListContainer = () => {
 
@@ -10,13 +11,12 @@ export const ItemListContainer = () => {
     const [loading, setLoading] = useState(true)
 
     const { categoria } = useParams();
-    console.log(categoria);
 
     useEffect(() => {
         pedirDatos()
             .then((res) => {
                 if (categoria) {
-                    setProducts(res.filter((el) => el.categoria === categoria))
+                    setProducts(res.filter(el => el.categoria === categoria))
                 } else {
                     setProducts(res)
                 }
@@ -32,13 +32,18 @@ export const ItemListContainer = () => {
 
     return (
 
-        <main>
+        <>
+
             {
                 loading
                     ? <Loading />
-                    : <ItemList products={products} />
+                    :
+                    <div className="productos">
+                        <Filters />
+                        <ItemList products={products} />
+                    </div>
             }
-        </main>
+        </>
 
     )
 

@@ -4,12 +4,11 @@ export const ItemList = ({ products }) => {
 
     return (
 
-        <>
-            <h1>Productos</h1>
+        <main className="main-productos">
             <div className="card-grid">
                 {products.map(el => <Item key={el.id} {...el} />)}
             </div>
-        </>
+        </main>
 
     )
 

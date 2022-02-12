@@ -5,19 +5,15 @@
 @import url('../Components/ItemList/ItemList.scss');
 @import url('../Components/Item/Item.scss');
 @import url("../Components/Loading/Loading.scss");
+@import url("../Components/Nosotros/Nosotros.scss");
+@import url("../Components/Contacto/Contacto.scss");
+@import url("../Components/Filters/Filters.scss");
 @import url('https://fonts.googleapis.com/css2?family=Asap+Condensed&display=swap');
 
-#root {
-    margin: 1rem;
+body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-}
-
-main {
-    background: var(--mainGreen);
-    border-radius: 10px;
-    margin-top: 2rem;
-    box-shadow: 1px 0 1rem #010;
-    padding: 1rem;
+    margin: 1rem;
+    background: url("../images/logo.png") no-repeat center/cover;
 }

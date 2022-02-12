@@ -13,13 +13,12 @@ function App() {
 
 			<Routes>
 				<Route path="/" element={<ItemListContainer />} />
-				<Route path="/detail/:itemId" element={<ItemDetailContainer />} />
 				<Route path="/nosotros" element={<Nosotros />} />
 				<Route path="/productos/:categoria" element={<ItemListContainer />} />
+				<Route path="/detail/:itemId" element={<ItemDetailContainer />} />
 				<Route path="/contacto" element={<Contacto />} />
 				<Route path="*" element={<Navigate to="/" />} />
 			</Routes>
-
 		</BrowserRouter>
 	)
 }
