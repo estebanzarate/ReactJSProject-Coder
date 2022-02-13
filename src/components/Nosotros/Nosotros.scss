@@ -1,3 +1,11 @@
 .main-nosotros {
     min-height: 100vh;
+    border-radius: 10px;
+    margin-top: 1rem;
+    box-shadow: 1px 0 1rem #010;
+    background: var(--secondColor);
+    h1 {
+        padding: 2rem;
+        text-align: center;
+    }
 }

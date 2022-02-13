@@ -9,10 +9,11 @@ header {
     position: sticky;
     top: 1rem;
     .logo {
+        width: 8rem;
         transition: all .4s;
         img {
             text-transform: uppercase;
-            width: 8rem;
+            width: 100%;
         }
         &:hover {
             filter: drop-shadow(0 5px 4px var(--mainColor));

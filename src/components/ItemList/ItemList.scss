@@ -1,11 +1,11 @@
-.main-productos {
-    width: 100%;
-}
-
 .card-grid {
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(auto-fit, 15rem);
     justify-content: flex-start;
     gap: 1rem;
-    padding: 1rem;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 1px 0 1rem #010;
+    margin: 0 1rem 0 2rem;
 }

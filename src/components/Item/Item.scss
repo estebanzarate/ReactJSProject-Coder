@@ -2,25 +2,42 @@
     background: var(--mainOrange);
     display: flex;
     flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px black;
     transition: all .3s;
     &:hover {
         box-shadow: 0 2px 5px black;
     }
     .card-img {
         width: 100%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
     }
     .card-body {
         margin-top: .8rem;
         padding: 0 .8rem;
         display: flex;
         justify-content: space-between;
+        .card-price {
+            color: var(--mainColor);
+            font-size: 1.5rem;
+            &::first-letter{
+                color: deeppink;
+            }
+        }
     }
     .btn-container {
+        width: fit-content;
+        margin: .5rem auto;
         display: flex;
-        justify-content: flex-end;
-        padding: .8rem;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        text-decoration: none;
+        color: var(--mainColor);
+        font-weight: 700;
         .card-btn {
-            width: fit-content;
+            width: 2rem;
             padding: .3rem;
         }
     }

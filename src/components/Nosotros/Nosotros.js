@@ -4,7 +4,6 @@ export const Nosotros = () => {
 
         <main className="main-nosotros">
             <h1>NOSOTROS</h1>
-            <hr />
         </main>
 
     )
