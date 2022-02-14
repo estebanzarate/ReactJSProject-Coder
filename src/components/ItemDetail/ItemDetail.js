@@ -15,16 +15,22 @@ export const ItemDetail = ({ id, img, nombre, precio, categoria, descripcion, st
 
     return (
 
-        <div>
-            <h3>{nombre}</h3>
-            <img src={img} alt={nombre} />
-            <p>{descripcion}</p>
-            <h5>Precio: ${precio}</h5>
-
-            <ItemCount max={stock} counter={cantidad} setCounter={setCantidad} />
-
-            <button onClick={handleAgregar}>agregar al carrito</button>
-        </div>
+        <main className="main-itemDetail">
+            <div className="body-itemDetail">
+                <div className="itemDetail-row itemDetail-row1">
+                    <div className="img-itemDetail">
+                        <img src={img} alt={nombre} />
+                    </div>
+                    <div>
+                        <h3 className="titulo-itemDetail">{nombre}</h3>
+                        <p className="descripcion-itemDetail">{descripcion}</p>
+                        <p className="precio-itemDetail">${precio}</p>
+                        <ItemCount max={stock} counter={cantidad} setCounter={setCantidad} />
+                        <button onClick={handleAgregar} className="btn-agregar">agregar al carrito</button>
+                    </div>
+                </div>
+            </div>
+        </main>
 
     )
 

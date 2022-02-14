@@ -10,7 +10,7 @@ export const ItemCount = ({ min = 0, max, counter, setCounter }) => {
 
     return (
 
-        <div>
+        <div className="itemCount">
             <button onClick={handleRestar}>-</button>
             <span>{counter}</span>
             <button onClick={handleSumar}>+</button>

@@ -1,0 +1,22 @@
+.itemCount {
+    width: fit-content;
+    display: flex;
+    button {
+        border: none;
+        display: inline-block;
+        transition: all .5s;
+        text-align: center;
+        font-size: 2rem;
+        padding: .4rem 1rem;
+        background: none;
+        cursor: pointer;
+    }
+    span {
+        font-size: 1.5rem;
+        padding: 1rem;
+        color: deeppink;
+        font-weight: 700;
+        width: 3rem;
+        text-align: center;
+    }
+}
