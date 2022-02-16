@@ -24,34 +24,24 @@ export const ItemDetail = ({ id, img, nombre, precio, categoria, descripcion, st
 
         <main className="main-itemDetail">
             <div className="body-itemDetail">
-                <div className="itemDetail-row itemDetail-row1">
-                    <div className="img-itemDetail">
-                        <img src={img} alt={nombre} />
-                    </div>
-                    <div>
-                        <div>
-                            <h3 className="titulo-itemDetail">{nombre}</h3>
-                        </div>
-                        <div>
-                            <p className="descripcion-itemDetail">{descripcion}</p>
-                        </div>
-                        <div>
-                            <p className="precio-itemDetail">${precio}</p>
-                        </div>
-                        {
-                            isInCart(id)
-                                ? <div><Link to="/cart" className="btn-terminarCompra">Terminar compra</Link></div>
-                                :
-                                <div>
-                                    <ItemCount max={stock} counter={cantidad} setCounter={setCantidad} />
-                                    <button onClick={handleAgregar} className="btn-agregar">agregar al carrito</button>
-                                </div>
-                        }
-                    </div>
+                <div className="itemDetail-col">
+                    <img src={img} alt={nombre} />
+                </div>
+                <div className="itemDetail-col">
+                    <h3 className="titulo-itemDetail">{nombre}</h3>
+                    <p className="descripcion-itemDetail">{descripcion}</p>
+                    <p className="precio-itemDetail">${precio}</p>
+                    {
+                        isInCart(id)
+                            ? <Link to="/cart" className="btn-terminarCompra">terminar compra</Link>
+                            :
+                            <>
+                                <ItemCount max={stock} counter={cantidad} setCounter={setCantidad} />
+                                <button onClick={handleAgregar} className="btn-agregar">agregar al carrito</button>
+                            </>
+                    }
                 </div>
             </div>
         </main>
-
     )
-
 }

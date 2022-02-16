@@ -2,51 +2,55 @@
     margin-top: 2rem;
     padding: 2rem;
     background: var(--secondColor);
-    min-height: 100vh;
     display: flex;
     justify-content: center;
     border-radius: 10px;
     box-shadow: 1px 0 1rem #010;
     .body-itemDetail {
         width: 80%;
-        .itemDetail-row1 {
+        padding: 5rem;
+        border-radius: 10px;
+        box-shadow: 1px 0 1rem #010;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .itemDetail-col {
+            margin: 1rem;
             display: flex;
-            .img-itemDetail img {
+            flex-direction: column;
+            img {
                 border-radius: 10px;
-                margin-right: 2rem;
             }
-            div {
-                h3 {
-                    font-size: 2rem;
-                }
-                .descripcion-itemDetail {
-                    text-indent: 2rem;
-                    line-height: 1.5rem;
-                }
-                .precio-itemDetail {
-                    font-size: 1.5rem;
-                    letter-spacing: .1rem;
-                    margin: .5rem 0 1rem 0;
-                }
-                .precio-itemDetail::first-letter {
-                    color: deeppink;
-                }
-                .btn-agregar, .btn-terminarCompra {
-                    padding: .4rem 1rem;
-                    border: none;
-                    background: var(--secondColor);
-                    transition: all .5s;
-                    border-radius: 5px;
-                    color: var(--mainColor);
-                    border: .1rem solid rgba(243, 221, 248, .8);
-                    text-decoration: none;
-                }
-                .btn-agregar:hover {
-                    background: rgba(243, 221, 248, .8);
-                }
-                .btn-terminarCompra {
-                    
-                }
+            h3 {
+                font-size: 2rem;
+                margin-bottom: 1rem;
+            }
+            .descripcion-itemDetail {
+                text-indent: 2rem;
+                line-height: 1.5rem;
+            }
+            .precio-itemDetail {
+                font-size: 1.5rem;
+                letter-spacing: .1rem;
+                margin: .5rem;
+            }
+            .precio-itemDetail::first-letter {
+                color: deeppink;
+            }
+            .btn-agregar, .btn-terminarCompra {
+                padding: .4rem 1rem;
+                border: none;
+                background: var(--secondColor);
+                transition: all .5s;
+                border-radius: 5px;
+                color: var(--mainColor);
+                border: .1rem solid rgba(243, 221, 248, .8);
+                text-decoration: none;
+                margin: .2rem;
+                width: fit-content;
+            }
+            .btn-agregar:hover, .btn-terminarCompra:hover {
+                background: rgba(243, 221, 248, .8);
             }
         }
     }
