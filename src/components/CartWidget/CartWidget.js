@@ -5,13 +5,12 @@ import cartIco from '../../images/shopping-cart.png'
 
 export const CarTWidget = () => {
 
-    const { cantidadCart, totalCart } = useContext(CartContext)
+    const { cantidadCart } = useContext(CartContext)
 
     return (
         <Link to="/cart" className='cart-widget'>
             <img src={cartIco} alt="logo" />
-            <span>{cantidadCart()}</span>
-            <span>{totalCart()}</span>
+            <span className='cantidadCart'>{cantidadCart()}</span>
         </Link>
     )
 }

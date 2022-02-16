@@ -1,6 +1,21 @@
 .cart-widget {
+    position: relative;
+    display: flex;
+    text-decoration: none;
     img {
         width: 2.5rem;
         margin-right: 1rem;
+    }
+    .cantidadCart {
+        position: absolute;
+        top: -.5rem;
+        right: .6rem;
+        height: 1.2rem;
+        background: var(--mainColor);
+        color: white;
+        padding: .2rem .3rem;
+        font-size: .7rem;
+        border-radius: 50%;
+        text-align: center;
     }
 }
