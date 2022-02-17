@@ -6,7 +6,7 @@ export const pedirDatos = () => {
 
         setTimeout(() => {
             res(data);
-        }, 3000)
+        }, 0)
 
     })
 

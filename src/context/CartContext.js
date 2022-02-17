@@ -8,7 +8,6 @@ export const CartProvider = ({ children }) => {
     const [cart, setCart] = useState([])
 
     const agregarAlCarrito = (item) => {
-        console.log(isInCart(item.id))
         setCart([...cart, item])
     }
 

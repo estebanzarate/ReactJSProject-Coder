@@ -10,3 +10,20 @@
     font-family: 'Asap Condensed', sans-serif;
 }
 
+.btn {
+    padding: .4rem 1rem;
+    border: none;
+    background: var(--secondColor);
+    transition: all .5s;
+    border-radius: 5px;
+    color: var(--mainColor);
+    border: .1rem solid rgba(243, 221, 248, .8);
+    text-decoration: none;
+    margin: .2rem;
+    width: fit-content;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background: rgba(243, 221, 248, .8);
+}
