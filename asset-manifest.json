@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ReactJSProject-Coder/static/css/main.92d24c3f.css",
-    "main.js": "/ReactJSProject-Coder/static/js/main.0efacbc6.js",
+    "main.css": "/ReactJSProject-Coder/static/css/main.3f084fc3.css",
+    "main.js": "/ReactJSProject-Coder/static/js/main.a69fea2d.js",
     "static/js/787.5b0c3de5.chunk.js": "/ReactJSProject-Coder/static/js/787.5b0c3de5.chunk.js",
     "static/media/amigu2.jpg": "/ReactJSProject-Coder/static/media/amigu2.fe24b6c8c38e0a15e247.jpg",
     "static/media/amigu3.jpg": "/ReactJSProject-Coder/static/media/amigu3.8df5ebb3bb7c8579b4d1.jpg",
@@ -17,12 +17,12 @@
     "static/media/crochet.png": "/ReactJSProject-Coder/static/media/crochet.dd97cd2b275b7d12bd43.png",
     "static/media/shopping-cart.png": "/ReactJSProject-Coder/static/media/shopping-cart.6e627af0accac1d92b52.png",
     "index.html": "/ReactJSProject-Coder/index.html",
-    "main.92d24c3f.css.map": "/ReactJSProject-Coder/static/css/main.92d24c3f.css.map",
-    "main.0efacbc6.js.map": "/ReactJSProject-Coder/static/js/main.0efacbc6.js.map",
+    "main.3f084fc3.css.map": "/ReactJSProject-Coder/static/css/main.3f084fc3.css.map",
+    "main.a69fea2d.js.map": "/ReactJSProject-Coder/static/js/main.a69fea2d.js.map",
     "787.5b0c3de5.chunk.js.map": "/ReactJSProject-Coder/static/js/787.5b0c3de5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.92d24c3f.css",
-    "static/js/main.0efacbc6.js"
+    "static/css/main.3f084fc3.css",
+    "static/js/main.a69fea2d.js"
   ]
 }
