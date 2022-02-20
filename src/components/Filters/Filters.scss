@@ -11,8 +11,10 @@
     font-size: 1.2rem;
     margin: .5rem;
     text-decoration: none;
+    color: var(--mainColor);
+    transition: all .4s;
 }
 
 .aside-productos .aside-link:hover {
-    color: crimson;
+    color: deeppink;
 }

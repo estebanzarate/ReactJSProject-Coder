@@ -1,3 +1,5 @@
+import { configBtns } from "./configBtns"
+
 export const ItemCount = ({ min = 0, max, counter, setCounter }) => {
 
     const handleSumar = () => {
@@ -8,12 +10,18 @@ export const ItemCount = ({ min = 0, max, counter, setCounter }) => {
         counter > min && setCounter(counter - 1)
     }
 
+    const { configMinus, configAdd } = configBtns(counter, max, min, handleRestar, handleSumar)
+
     return (
 
         <div className="itemCount">
-            <button onClick={handleRestar}>-</button>
+            <button {...configMinus}>
+                -
+            </button>
             <span>{counter}</span>
-            <button onClick={handleSumar}>+</button>
+            <button {...configAdd}>
+                +
+            </button>
         </div>
 
     )

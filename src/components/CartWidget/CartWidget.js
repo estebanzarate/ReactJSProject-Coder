@@ -5,10 +5,10 @@ import cartIco from '../../images/shopping-cart.png'
 
 export const CarTWidget = () => {
 
-    const { cantidadCart } = useContext(CartContext)
+    const { cantidadCart, cart } = useContext(CartContext)
 
     return (
-        <Link to="/cart" className='cart-widget'>
+        <Link to="/cart" className={`cart-widget ${cart.length === 0 ? "cart-hidden" : ""}`}>
             <img src={cartIco} alt="logo" />
             <span className='cantidadCart'>{cantidadCart()}</span>
         </Link>

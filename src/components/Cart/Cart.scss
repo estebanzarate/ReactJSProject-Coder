@@ -47,3 +47,26 @@
         }
     }
 }
+
+.containEmptyCart {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .emptyCart {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 20rem;
+        height: 20rem;
+        margin-top: 2rem;
+        border-radius: 10px;
+        box-shadow: 1px 0 1rem #010;
+        background: var(--secondColor);
+        .emptyCartImg {
+            width: 6rem;
+            opacity: .7;
+        }
+    }
+}

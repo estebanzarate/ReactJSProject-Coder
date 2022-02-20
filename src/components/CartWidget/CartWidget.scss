@@ -2,6 +2,7 @@
     position: relative;
     display: flex;
     text-decoration: none;
+    visibility: visible;
     img {
         width: 2.5rem;
         margin-right: 1rem;
@@ -18,4 +19,8 @@
         border-radius: 50%;
         text-align: center;
     }
+}
+
+.cart-hidden {
+    visibility: hidden;
 }

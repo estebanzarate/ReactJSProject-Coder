@@ -1,7 +1,7 @@
 .itemCount {
     width: fit-content;
     display: flex;
-    button {
+    .btn-counter {
         border: none;
         display: inline-block;
         transition: all .5s;
@@ -19,4 +19,8 @@
         width: 3rem;
         text-align: center;
     }
+}
+
+.btn-counterMin {
+    color: red;
 }
