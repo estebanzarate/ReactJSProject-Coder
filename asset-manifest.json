@@ -1,28 +1,19 @@
 {
   "files": {
-    "main.css": "/ReactJSProject-Coder/static/css/main.3f084fc3.css",
-    "main.js": "/ReactJSProject-Coder/static/js/main.a69fea2d.js",
+    "main.css": "/ReactJSProject-Coder/static/css/main.6ff1189a.css",
+    "main.js": "/ReactJSProject-Coder/static/js/main.9472b8d8.js",
     "static/js/787.5b0c3de5.chunk.js": "/ReactJSProject-Coder/static/js/787.5b0c3de5.chunk.js",
-    "static/media/amigu2.jpg": "/ReactJSProject-Coder/static/media/amigu2.fe24b6c8c38e0a15e247.jpg",
-    "static/media/amigu3.jpg": "/ReactJSProject-Coder/static/media/amigu3.8df5ebb3bb7c8579b4d1.jpg",
-    "static/media/amigu7.jpg": "/ReactJSProject-Coder/static/media/amigu7.c56534fec3bbca39eeeb.jpg",
-    "static/media/amigu4.jpg": "/ReactJSProject-Coder/static/media/amigu4.6f3484911fba86c6d90b.jpg",
-    "static/media/amigu5.jpg": "/ReactJSProject-Coder/static/media/amigu5.50b8288c32cfdd48141e.jpg",
     "static/media/logo.png": "/ReactJSProject-Coder/static/media/logo.e791585ead7ea157bb3a.png",
-    "static/media/amigu6.jpg": "/ReactJSProject-Coder/static/media/amigu6.2664e4977fe91a78b7d2.jpg",
-    "static/media/amigu9.jpg": "/ReactJSProject-Coder/static/media/amigu9.024f97f3fb95c8bbe20c.jpg",
-    "static/media/amigu1.jpg": "/ReactJSProject-Coder/static/media/amigu1.03d8e26e4435db2e9b70.jpg",
-    "static/media/amigu10.jpg": "/ReactJSProject-Coder/static/media/amigu10.23615e564d1aa669cd00.jpg",
-    "static/media/amigu8.jpg": "/ReactJSProject-Coder/static/media/amigu8.9b48de90a6e4f0ee0daa.jpg",
     "static/media/crochet.png": "/ReactJSProject-Coder/static/media/crochet.dd97cd2b275b7d12bd43.png",
     "static/media/shopping-cart.png": "/ReactJSProject-Coder/static/media/shopping-cart.6e627af0accac1d92b52.png",
+    "static/media/emptycart.png": "/ReactJSProject-Coder/static/media/emptycart.37941a0af02e7f43789a.png",
     "index.html": "/ReactJSProject-Coder/index.html",
-    "main.3f084fc3.css.map": "/ReactJSProject-Coder/static/css/main.3f084fc3.css.map",
-    "main.a69fea2d.js.map": "/ReactJSProject-Coder/static/js/main.a69fea2d.js.map",
+    "main.6ff1189a.css.map": "/ReactJSProject-Coder/static/css/main.6ff1189a.css.map",
+    "main.9472b8d8.js.map": "/ReactJSProject-Coder/static/js/main.9472b8d8.js.map",
     "787.5b0c3de5.chunk.js.map": "/ReactJSProject-Coder/static/js/787.5b0c3de5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3f084fc3.css",
-    "static/js/main.a69fea2d.js"
+    "static/css/main.6ff1189a.css",
+    "static/js/main.9472b8d8.js"
   ]
 }
