@@ -17,7 +17,6 @@ export const Contacto = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        console.log("Enviado");
     }
 
     return (

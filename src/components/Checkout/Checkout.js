@@ -44,7 +44,6 @@ export const Checkout = () => {
     })
 
     const handleInputChange = (e) => {
-        console.log(e.target.name);
         setvalues({
             ...values,
             [e.target.name]: e.target.value
@@ -72,7 +71,7 @@ export const Checkout = () => {
             <main className="checkOut">
                 <div className="checkOutDiv">
                     <h2 className="gracias">Gracias por tu compra!</h2>
-                    <h3>Tu número de orden es: <span className="orden">{orderId}</span></h3>
+                    <h3 className="orden">Tu número de orden es: <span className="ordenNum">{orderId}</span></h3>
                     <Link to="/">
                         <button className="btn btnCheck">Volver</button>
                     </Link>

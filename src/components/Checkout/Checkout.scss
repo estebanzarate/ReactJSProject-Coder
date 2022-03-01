@@ -72,13 +72,27 @@
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
+        @media (max-width: 480px) {
+            min-height: 15rem;
+        }
         .gracias {
             font-size: 2rem;
+            @media (max-width: 480px) {
+                text-align: center;
+            }
         }
         .orden {
-            color: deeppink;
-            margin: 0 .5rem;
-            letter-spacing: .05rem;
+            @media (max-width: 480px) {
+                text-align: center;
+            }
+            .ordenNum {
+                color: deeppink;
+                margin: 0 .5rem;
+                letter-spacing: .05rem;
+                @media (max-width: 480px) {
+                    text-align: center;
+                }
+            }
         }
         .btnCheck {
             font-size: 1.2rem;
