@@ -5,16 +5,19 @@
     width: 15rem;
     border-radius: 10px;
     box-shadow: 1px 0 1rem #010;
+    @media (max-width: 480px) {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    .aside-link {
+        font-size: 1.2rem;
+        margin: .5rem;
+        text-decoration: none;
+        color: var(--mainColor);
+        transition: all .4s;
+    }
+    .aside-link:hover {
+        color: deeppink;
+    }
 }
 
-.aside-productos .aside-link {
-    font-size: 1.2rem;
-    margin: .5rem;
-    text-decoration: none;
-    color: var(--mainColor);
-    transition: all .4s;
-}
-
-.aside-productos .aside-link:hover {
-    color: deeppink;
-}

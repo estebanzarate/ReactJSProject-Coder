@@ -1,7 +1,8 @@
 import { useContext } from "react"
-import { Link, Navigate } from "react-router-dom"
+import { Link } from "react-router-dom"
 import { CartContext } from "../../context/CartContext"
 import emptyCart from "../../images/emptycart.png"
+import { BsTrash } from "react-icons/bs";
 
 export const Cart = () => {
 
@@ -31,10 +32,9 @@ export const Cart = () => {
                             cart.map((item) => (
                                 <div key={item.id} className="body-prodCart">
                                     <img src={item.img} alt={item.nombre} className="img-prodCart" />
-                                    <h4 className="title-prodCart">{item.nombre}</h4>
-                                    <p className="cantidad-prodCart">Cantidad: {item.cantidad}</p>
-                                    <p className="precio-prodCart">Precio: ${item.cantidad * item.precio}</p>
-                                    <button onClick={() => eliminarItem(item.id)} className="btn">Eliminar</button>
+                                    <p className="cantidad-prodCart">Cantidad: <span className="prod-cantidad">{item.cantidad}</span></p>
+                                    <p className="precio-prodCart">Precio: <span className="priceNum">${item.cantidad * item.precio}</span></p>
+                                    <button onClick={() => eliminarItem(item.id)} className="btn btnDelete"><BsTrash /></button>
                                 </div>
                             ))
                         }
@@ -43,7 +43,7 @@ export const Cart = () => {
                         <h2 className="total-title">Total: ${totalCart()}</h2>
                         <div>
                             <button onClick={vaciarCart} className="btn">Vaciar carrito</button>
-                            <button className="btn">Finalizar compra</button>
+                            <Link to="/checkout" className="btn">Finalizar compra</Link>
                         </div>
                     </div>
                 </div>

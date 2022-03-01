@@ -1,9 +1,17 @@
+import { Link } from "react-router-dom"
+import bcVideo from "../../video/yodaLuvi.mp4"
+
 export const Nosotros = () => {
 
     return (
 
         <main className="main-nosotros">
-            <h1>NOSOTROS</h1>
+            <video className="videoLuvi" autoPlay muted loop>
+                <source src={bcVideo} type="video/mp4" />
+            </video>
+            <Link to="/productos">
+                <button className="btn btn-main">VER PRODUCTOS</button>
+            </Link>
         </main>
 
     )

@@ -4,8 +4,22 @@
     margin-top: 2rem;
     box-shadow: 1px 0 1rem #010;
     background: var(--secondColor);
-    h1 {
-        padding: 2rem;
-        text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .videoLuvi{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+        opacity: .8;
+        height: 100vh;
+        z-index: -1;
+    }
+    .btn-main {
+        z-index: 2;
     }
 }

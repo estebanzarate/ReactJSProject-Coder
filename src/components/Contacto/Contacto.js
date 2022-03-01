@@ -4,11 +4,11 @@ export const Contacto = () => {
 
     const [values, setvalues] = useState({
         nombre: "",
-        email: ""
+        email: "",
+        texto: ""
     })
 
     const handleInputChange = (e) => {
-        console.log(e.target.name);
         setvalues({
             ...values,
             [e.target.name]: e.target.value
@@ -21,15 +21,13 @@ export const Contacto = () => {
     }
 
     return (
-
         <main className="main-contacto">
-            <form onSubmit={handleSubmit}>
-                <input type="text" placeholder="Nombre" value={values.nombre} onChange={handleInputChange} name="nombre" />
-                <input type="email" placeholder="Email" value={values.email} onChange={handleInputChange} name="email" />
-                <input type="submit" value="ENVIAR" />
+            <form onSubmit={handleSubmit} className="form-contacto">
+                <input type="text" placeholder="Nombre" value={values.nombre} onChange={handleInputChange} name="nombre" className="inputForm" />
+                <input type="email" placeholder="Email" value={values.email} onChange={handleInputChange} name="email" className="inputForm" />
+                <textarea placeholder="En qué te podemos ayudar?" value={values.texto} onChange={handleInputChange} name="texto" />
+                <input type="submit" value="ENVIAR" className="inputForm" />
             </form>
         </main>
-
     )
-
 }

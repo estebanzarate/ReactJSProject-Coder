@@ -1,0 +1,25 @@
+footer {
+    border: var(--mainBorder);
+    box-shadow: var(--mainBoxShadow);
+    border-radius: var(--mainRadius);
+    background: var(--secondColor);
+    height: 10rem;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .redes {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        a {
+            display: flex;
+            color: var(--mainColor);
+            font-size: 4rem;
+            transition: all .4s;
+        }
+        a:hover {
+            color: deeppink;
+        }
+    }
+}

@@ -1,11 +1,72 @@
 .main-contacto {
     min-height: 100vh;
-    border-radius: 10px;
     margin-top: 2rem;
+    border-radius: 10px;
     box-shadow: 1px 0 1rem #010;
     background: var(--secondColor);
-    h1 {
-        padding: 2rem;
-        text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .form-contacto {
+        padding: 4rem;
+        width: 30rem;
+        min-height: 20rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        box-shadow: 1px 0 1rem #010;
+        background: var(--secondColor);
+        border-radius: 10px;
+        @media (max-width: 480px) {
+            padding: 2rem;
+            width: 30rem;
+            min-height: 20rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            box-shadow: unset;
+            background: unset;
+            border-radius: unset;
+        }
+        .inputForm {
+            border-radius: 10px;
+            box-shadow: 1px 0 1rem #010;
+            background: var(--secondColor);
+            padding: .5rem;
+            height: 2rem;
+            border: none;
+            font-size: 1rem;
+        }
+        .inputForm:focus {
+            outline: none;
+        }
+        input[type=text] {
+            margin-bottom: 1rem;
+        }
+        input[type=email] {
+            margin-bottom: 1rem;
+        }
+        textarea {
+            padding: .5rem;
+            border-radius: 10px;
+            box-shadow: 1px 0 1rem #010;
+            background: var(--secondColor);
+            height: 10rem;
+            resize: none;
+            margin-bottom: 1rem;
+            font-size: 1rem;
+        }
+        textarea:focus {
+            outline: none;
+        }
+        input[type=submit] {
+            transition: all .3s;
+        }
+        input[type=submit]:hover {
+            color: deeppink;
+        }
+        input[type=submit]:active {
+            transform: scale(.9);
+        }
     }
 }

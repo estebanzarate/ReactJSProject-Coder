@@ -4,35 +4,63 @@
     margin-top: 2rem;
     padding: 2rem;
     background: var(--secondColor);
+    @media (max-width: 480px) {
+        padding: 1rem;
+    }
     .title-cart {
-        margin: 1rem;
+        margin: 1rem 0 2rem 0;
         text-align: center;
     }
     .container-mainCart{
         display: flex;
         justify-content: space-evenly;
+        @media (max-width: 480px) {
+            flex-direction: column;
+        }
         .body-prodCart {
             width: 30rem;
             display: flex;
-            justify-content: space-evenly;
+            justify-content: space-between;
             align-items: center;
-            margin: 1rem;
             padding: 1rem;
             border-radius: 10px;
             box-shadow: 1px 0 1rem #010;
+            margin-bottom: 1rem;
+            @media (max-width: 480px) {
+                width: 100%;
+            }
             .img-prodCart {
-                width: 4rem;
+                width: 3rem;
                 border-radius: 10px;
             }
-            .title-prodCart {
-                min-width: 5rem;
-                margin-left: 1rem;
-            }
             .cantidad-prodCart {
-                min-width: 5rem;
+                min-width: 3rem;
+                .prod-cantidad {
+                    color: var(--mainColor);
+                    font-weight: 700;
+                    margin: 0 .3rem;
+                    font-size: 1.2rem;
+                }
             }
             .precio-prodCart {
-                min-width: 6rem;
+                min-width: 3rem;
+                .priceNum {
+                    color: deeppink;
+                    font-size: 1.2rem;
+                    margin: 0 .3rem;
+                    font-weight: 700;
+                    letter-spacing: .1rem;
+                }
+            }
+            .btnDelete {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: .3rem;
+                font-size: 1.3rem;
+                @media (max-width: 480px) {
+                    font-size: 1rem;
+                }
             }
         }
         .total-cart {
@@ -53,6 +81,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 10px;
+    box-shadow: 1px 0 1rem #010;
+    background: var(--secondColor);
+    margin-top: 2rem;
     .emptyCart {
         display: flex;
         flex-direction: column;
@@ -60,10 +92,6 @@
         justify-content: space-evenly;
         width: 20rem;
         height: 20rem;
-        margin-top: 2rem;
-        border-radius: 10px;
-        box-shadow: 1px 0 1rem #010;
-        background: var(--secondColor);
         .emptyCartImg {
             width: 6rem;
             opacity: .7;
