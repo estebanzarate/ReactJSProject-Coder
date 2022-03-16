@@ -1,14 +1,11 @@
 .card-grid {
-    width: 100%;
+    width: 80%;
     display: grid;
     grid-template-columns: repeat(auto-fit, 15rem);
-    justify-content: center;
+    justify-content: flex-start;
     gap: 2rem;
     padding: 2rem;
-    border-radius: 10px;
-    box-shadow: 1px 0 1rem #010;
-    margin-left: 2rem;
-    @media (max-width: 480px) {
-        margin-left: 0;
+    @media (max-width: 768px){
+        width: 100%;;
     }
 }

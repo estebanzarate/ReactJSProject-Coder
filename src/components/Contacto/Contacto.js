@@ -25,7 +25,7 @@ export const Contacto = () => {
                 <input type="text" placeholder="Nombre" value={values.nombre} onChange={handleInputChange} name="nombre" className="inputForm" />
                 <input type="email" placeholder="Email" value={values.email} onChange={handleInputChange} name="email" className="inputForm" />
                 <textarea placeholder="En qué te podemos ayudar?" value={values.texto} onChange={handleInputChange} name="texto" />
-                <input type="submit" value="ENVIAR" className="inputForm" />
+                <input type="submit" value="ENVIAR" className="btn" />
             </form>
         </main>
     )

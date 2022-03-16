@@ -91,7 +91,7 @@ export const Checkout = () => {
                 <input type="text" placeholder="Nombre" value={values.nombre} onChange={handleInputChange} name="nombre" className="inputForm" />
                 <input type="tel" placeholder="Teléfono" value={values.tel} onChange={handleInputChange} name="tel" className="inputForm" />
                 <input type="email" placeholder="Email" value={values.email} onChange={handleInputChange} name="email" className="inputForm" />
-                <input type="submit" value="ENVIAR" className="inputForm" />
+                <input type="submit" value="ENVIAR" className="btn" />
             </form>
         </div>
 

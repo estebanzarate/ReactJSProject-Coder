@@ -1,11 +1,12 @@
 .productos {
+    min-height: 100vh;
     display: flex;
     border-radius: 10px;
     box-shadow: 1px 0 1rem #010;
     margin-top: 2rem;
     padding: 1rem;
     background: var(--secondColor);
-    @media (max-width: 480px){
+    @media (max-width: 768px){
         flex-direction: column;
     }
 }
