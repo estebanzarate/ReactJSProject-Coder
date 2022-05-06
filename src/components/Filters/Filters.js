@@ -4,12 +4,12 @@ export const Filters = () => {
 
     return (
 
-        <aside className="aside-productos">
-            <Link to="/productos/cantantes" className="aside-link">Cantantes</Link>
-            <Link to="/productos/mundopica" className="aside-link">El Mundo de Pica Pau</Link>
-            <Link to="/productos/pokemon" className="aside-link">Pokemón</Link>
-            <Link to="/productos/starwars" className="aside-link">Star Wars</Link>
-            <Link to="/productos/superheroes" className="aside-link">Superhéroes</Link>
+        <aside className="asideProducts">
+            <Link to="/productos/cantantes" className="asideLink">Cantantes</Link>
+            <Link to="/productos/mundopica" className="asideLink">El Mundo de Pica Pau</Link>
+            <Link to="/productos/pokemon" className="asideLink">Pokemón</Link>
+            <Link to="/productos/starwars" className="asideLink">Star Wars</Link>
+            <Link to="/productos/superheroes" className="asideLink">Superhéroes</Link>
         </aside>
 
     )

@@ -2,6 +2,7 @@ import { useContext, useState } from "react"
 import { CartContext } from "../../context/CartContext"
 import { ItemCount } from "../ItemCount/ItemCount"
 import { Link } from "react-router-dom"
+import { BtnMain } from "../BtnMain/BtnMain"
 
 export const ItemDetail = ({ id, img, nombre, precio, descripcion, stock }) => {
 
@@ -21,32 +22,31 @@ export const ItemDetail = ({ id, img, nombre, precio, descripcion, stock }) => {
 
     return (
 
-        <main className="main-itemDetail">
-            <div className="body-itemDetail">
-                <div className="itemDetail-col">
-                    <img src={img} alt={nombre} />
-                </div>
-                <div className="itemDetail-col">
-                    <h3 className="titulo-itemDetail">{nombre}</h3>
-                    <p className="descripcion-itemDetail">{descripcion}</p>
-                    <p className="precio-itemDetail">${precio}</p>
-                    {
-                        isInCart(id)
-                            ? <Link to="/cart" className="btn btn-terminarCompra">terminar compra</Link>
-                            :
-                            <>
-                                <ItemCount max={stock} counter={cantidad} setCounter={setCantidad} />
-                                <button
-                                    onClick={handleAgregar}
-                                    className="btn btn-agregar"
-                                    disabled={cantidad === 0}
-                                >
-                                    agregar al carrito
-                                </button>
-                            </>
-                    }
-                </div>
+        <div className="itemDetail">
+            <div className="col">
+                <img src={img} alt={nombre} />
             </div>
-        </main>
+            <div className="col">
+                <h3 className="title">{nombre}</h3>
+                <p className="desc">{descripcion}</p>
+                <p className="price">${precio}</p>
+                {
+                    isInCart(id)
+                        ? <Link to="/cart">
+                            <BtnMain text="Terminar Compra"/>
+                        </Link>
+                        :
+                        <>
+                            <ItemCount max={stock} counter={cantidad} setCounter={setCantidad} />
+                            <BtnMain
+                                text="agregar al carrito"
+                                fct={handleAgregar}
+                                disabled={cantidad === 0}
+                            />
+                        </>
+                }
+            </div>
+        </div>
     )
+    
 }

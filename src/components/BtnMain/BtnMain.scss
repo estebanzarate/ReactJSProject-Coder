@@ -1,0 +1,17 @@
+.btnMain {
+    width: fit-content;
+    padding: .4rem 1rem;
+    border: none;
+    background: var(--secondColor);
+    border-radius: 5px;
+    color: var(--mainColor);
+    border: .1rem solid rgba(243, 221, 248, 0.8);
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: .2rem;
+}
+
+.btnMain:hover {
+    cursor: pointer;
+    background: rgba(243, 221, 248, 1);
+}

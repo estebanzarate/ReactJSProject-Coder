@@ -26,13 +26,13 @@ export const ItemDetailContainer = () => {
 
     return (
 
-        <div>
+        <>
             {
                 loading
                     ? <Loading />
                     : <ItemDetail {...item} />
             }
-        </div>
+        </>
 
     )
 

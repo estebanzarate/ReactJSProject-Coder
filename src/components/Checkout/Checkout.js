@@ -4,11 +4,11 @@ import { useContext, useState } from "react"
 import { Navigate } from "react-router-dom"
 import { db } from "../../firebase/config"
 import { Link } from "react-router-dom"
+import { BtnMain } from "../BtnMain/BtnMain"
 
 export const Checkout = () => {
 
     const { cart, totalCart, vaciarCart } = useContext(CartContext)
-
     const [orderId, setOrderId] = useState(null)
 
     const generarOrden = () => {
@@ -39,8 +39,7 @@ export const Checkout = () => {
     const [values, setvalues] = useState({
         nombre: "",
         email: "",
-        tel: "",
-        texto: ""
+        tel: ""
     })
 
     const handleInputChange = (e) => {
@@ -70,10 +69,10 @@ export const Checkout = () => {
         return (
             <main className="checkOut">
                 <div className="checkOutDiv">
-                    <h2 className="gracias">Gracias por tu compra!</h2>
+                    <h2 className="gracias">Gracias por tu compra {values.nombre}!!</h2>
                     <h3 className="orden">Tu número de orden es: <span className="ordenNum">{orderId}</span></h3>
                     <Link to="/">
-                        <button className="btn btnCheck">Volver</button>
+                        <BtnMain text="Volver"/>
                     </Link>
                 </div>
             </main>
@@ -91,7 +90,7 @@ export const Checkout = () => {
                 <input type="text" placeholder="Nombre" value={values.nombre} onChange={handleInputChange} name="nombre" className="inputForm" />
                 <input type="tel" placeholder="Teléfono" value={values.tel} onChange={handleInputChange} name="tel" className="inputForm" />
                 <input type="email" placeholder="Email" value={values.email} onChange={handleInputChange} name="email" className="inputForm" />
-                <input type="submit" value="ENVIAR" className="btn" />
+                <BtnMain text="ENVIAR" />
             </form>
         </div>
 

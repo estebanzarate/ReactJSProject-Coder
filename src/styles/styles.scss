@@ -13,12 +13,20 @@
 @import url("../Components/Cart/Cart.scss");
 @import url("../Components/Footer/Footer.scss");
 @import url("../Components/Checkout/Checkout.scss");
+@import url("../Components/BtnMain/BtnMain.scss");
 @import url('https://fonts.googleapis.com/css2?family=Asap+Condensed&display=swap');
 
 body {
+    background: url("../images/logo.png") no-repeat center/cover;
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+
+#root {
+    width: 100%;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    margin: 1rem;
-    background: url("../images/logo.png") no-repeat center/cover;
+    align-items: center;
 }

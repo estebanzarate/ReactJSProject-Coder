@@ -4,7 +4,7 @@ export const ItemList = ({ products }) => {
 
     return (
 
-        <div className="card-grid">
+        <div className="cardGrid">
             {products.map(el => <Item key={el.id} {...el} />)}
         </div>
 

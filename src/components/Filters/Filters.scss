@@ -1,20 +1,19 @@
-.aside-productos {
+.asideProducts {
     width: 20%;
+    padding: 2rem;
     display: flex;
     flex-direction: column;
-    padding: 2rem;
     @media (max-width: 480px) {
         width: 100%;
-        margin-bottom: 1rem;
     }
-    .aside-link {
+    .asideLink {
+        width: fit-content;
         font-size: 1.2rem;
-        margin: .5rem;
+        margin: 0.5rem;
         text-decoration: none;
         color: var(--mainColor);
-        transition: all .4s;
     }
-    .aside-link:hover {
+    .asideLink:hover {
         color: deeppink;
     }
 }

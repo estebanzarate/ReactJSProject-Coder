@@ -1,11 +1,11 @@
-.productos {
-    min-height: 100vh;
-    display: flex;
-    border-radius: 10px;
-    box-shadow: 1px 0 1rem #010;
-    margin-top: 2rem;
-    padding: 1rem;
+.products {
+    width: 100%;
+    padding: 2rem;
+    margin-bottom: 2rem;
     background: var(--secondColor);
+    display: flex;
+    border-radius: var(--borderRadius);
+    box-shadow: var(--boxShadow);
     @media (max-width: 768px){
         flex-direction: column;
     }

@@ -23,10 +23,10 @@ export const NavBar = () => {
                 <img src={logoLuvi} alt="logo" />
             </Link>
 
-            <nav>
-                <Link to="/nosotros" className="header-link">nosotros</Link>
-                <Link to="/productos" className="header-link">productos</Link>
-                <Link to="/contacto" className="header-link">contacto</Link>
+            <nav className="navBar">
+                <Link to="/nosotros" className="headerLink">nosotros</Link>
+                <Link to="/productos" className="headerLink">productos</Link>
+                <Link to="/contacto" className="headerLink">contacto</Link>
             </nav>
             <CarTWidget />
         </header>

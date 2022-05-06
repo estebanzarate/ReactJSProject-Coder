@@ -1,6 +1,7 @@
 .main-contacto {
+    width: 100%;
     min-height: 100vh;
-    margin-top: 2rem;
+    margin-bottom: 2rem;
     border-radius: 10px;
     box-shadow: 1px 0 1rem #010;
     background: var(--secondColor);
@@ -56,17 +57,6 @@
         }
         textarea:focus {
             outline: none;
-        }
-        input[type=submit] {
-            transition: all .3s;
-            display: inline-flex;
-            margin-left: auto;
-        }
-        input[type=submit]:hover {
-            color: deeppink;
-        }
-        input[type=submit]:active {
-            transform: scale(.9);
         }
     }
 }

@@ -1,45 +1,45 @@
 .header {
+    width: 100%;
     background: var(--secondColor);
+    margin-bottom: 2rem;
     padding: 1rem;
-    border-radius: 10px;
-    box-shadow: 1px 0 1rem #010;
+    border-radius: var(--borderRadius);
+    box-shadow: var(--boxShadow);
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: sticky;
-    top: 1rem;
+    top: 2rem;
     z-index: 2;
-    transition: all 1s;
     @media (max-width: 480px){
         flex-direction: column;
     }
     .logo {
         width: 8rem;
-        transition: all .4s;
+        transition: all 0.2s;
         img {
             text-transform: uppercase;
             width: 100%;
         }
         &:hover {
-            filter: drop-shadow(0 5px 4px var(--mainColor));
+            filter: drop-shadow(0 0 0.1rem var(--mainColor));
         }
     }
-    nav {
+    .navBar {
         display: flex;
         justify-content: space-evenly;
         flex-wrap: wrap;
-        width: 25rem;
         @media (max-width: 480px){
             margin: 1rem 0;
         }
-        .header-link {
-            cursor: pointer;
+        .headerLink {
+            margin: 0.8rem;
+            color: var(--mainColor);
             font-size: 1.5rem;
             text-decoration: none;
-            transition: all .3s;
-            color: var(--mainColor);
+            cursor: pointer;
         }
-        .header-link:hover {
+        .headerLink:hover {
             color: deeppink;
         }
     }

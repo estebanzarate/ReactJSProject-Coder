@@ -1,10 +1,10 @@
-.card-grid {
+.cardGrid {
     width: 80%;
+    padding: 2rem;
     display: grid;
     grid-template-columns: repeat(auto-fit, 15rem);
     justify-content: flex-start;
     gap: 2rem;
-    padding: 2rem;
     @media (max-width: 768px){
         width: 100%;;
     }
