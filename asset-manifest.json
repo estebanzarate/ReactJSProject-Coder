@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ReactJSProject-Coder/static/css/main.fbdbfe26.css",
-    "main.js": "/ReactJSProject-Coder/static/js/main.8df42dd6.js",
+    "main.js": "/ReactJSProject-Coder/static/js/main.d4a0439c.js",
     "static/js/787.5b0c3de5.chunk.js": "/ReactJSProject-Coder/static/js/787.5b0c3de5.chunk.js",
     "static/media/yodaLuvi.mp4": "/ReactJSProject-Coder/static/media/yodaLuvi.47725b8e47225e4745de.mp4",
     "static/media/logo.png": "/ReactJSProject-Coder/static/media/logo.e791585ead7ea157bb3a.png",
@@ -10,11 +10,11 @@
     "static/media/emptycart.png": "/ReactJSProject-Coder/static/media/emptycart.37941a0af02e7f43789a.png",
     "index.html": "/ReactJSProject-Coder/index.html",
     "main.fbdbfe26.css.map": "/ReactJSProject-Coder/static/css/main.fbdbfe26.css.map",
-    "main.8df42dd6.js.map": "/ReactJSProject-Coder/static/js/main.8df42dd6.js.map",
+    "main.d4a0439c.js.map": "/ReactJSProject-Coder/static/js/main.d4a0439c.js.map",
     "787.5b0c3de5.chunk.js.map": "/ReactJSProject-Coder/static/js/787.5b0c3de5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fbdbfe26.css",
-    "static/js/main.8df42dd6.js"
+    "static/js/main.d4a0439c.js"
   ]
 }
